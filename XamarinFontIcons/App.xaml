@@ -1,0 +1,25 @@
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
+     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     x:Class="XamarinFontIcons.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ButtonColor">#191919</Color>
+            <Color x:Key="BackgroundColor">Black</Color>
+            <Color x:Key="TextColor">White</Color>
+            <Color x:Key="LightTextColor">White</Color>
+            <Color x:Key="ThemeColor">#007AFF</Color>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
+            </Style>
+            <Style x:Key="BackgroundStyle" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
+            </Style>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource ButtonColor}" />
+                <Setter Property="BorderColor" Value="{DynamicResource TextColor}" />
+                <Setter Property="Margin" Value="5" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
