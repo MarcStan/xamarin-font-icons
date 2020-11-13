@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("FontAwesome-regular.otf", Alias = "FontAwesomeRegular")]
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace XamarinFontIcons
 {

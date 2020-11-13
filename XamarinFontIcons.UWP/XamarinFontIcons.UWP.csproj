@@ -184,18 +184,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamarinFontIcons\XamarinFontIcons.csproj">
       <Project>{6466A946-EA0E-484D-A469-D735C49F8C11}</Project>
       <Name>XamarinFontIcons</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="..\FontAwesome-regular.otf">
-      <Link>Assets\FontAwesome-regular.otf</Link>
-    </Content>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

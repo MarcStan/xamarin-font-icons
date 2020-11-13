@@ -46,7 +46,7 @@ namespace XamarinFontIcons.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-                Xamarin.Forms.Forms.Init(args);
+                Xamarin.Forms.Forms.Init(args, new[] { typeof(XamarinFontIcons.App).Assembly });
 
                 Window.Current.Content = rootFrame;
             }

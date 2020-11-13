@@ -11,14 +11,8 @@
                 <FontImageSource
                     Glyph="&#xf580;"
                     Size="44"
-                    Color="{DynamicResource TextColor}">
-                    <FontImageSource.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android" Value="FontAwesome-regular.otf#Font Awesome 5 Free Regular" />
-                            <On Platform="UWP" Value="Assets/FontAwesome-regular.otf#Font Awesome 5 Free" />
-                        </OnPlatform>
-                    </FontImageSource.FontFamily>
-                </FontImageSource>
+                    Color="{DynamicResource TextColor}"
+                    FontFamily="FontAwesomeRegular" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
@@ -33,28 +27,16 @@
            Style="{DynamicResource LabelStyle}"
            TextColor="{DynamicResource TextColor}"
            VerticalOptions="Center" 
-           HorizontalOptions="Center">
-            <Label.FontFamily>
-                <OnPlatform x:TypeArguments="x:String">
-                    <On Platform="Android" Value="FontAwesome-regular.otf#Font Awesome 5 Free Regular" />
-                    <On Platform="UWP" Value="Assets/FontAwesome-regular.otf#Font Awesome 5 Free" />
-                </OnPlatform>
-            </Label.FontFamily>
-        </Label>
+           HorizontalOptions="Center"
+           FontFamily="FontAwesomeRegular" />
         <!-- Set icon in a button and reference glyph from viewmodel  -->
         <Button Text="Toggle theme" WidthRequest="120" Margin="5" Command="{Binding ToggleTheme}" Style="{DynamicResource ButtonStyle}">
             <Button.ImageSource>
                 <FontImageSource
                     Glyph="&#xf580;"
                     Size="44"
-                    Color="{DynamicResource TextColor}">
-                    <FontImageSource.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android" Value="FontAwesome-regular.otf#Font Awesome 5 Free Regular" />
-                            <On Platform="UWP" Value="Assets/FontAwesome-regular.otf#Font Awesome 5 Free" />
-                        </OnPlatform>
-                    </FontImageSource.FontFamily>
-                </FontImageSource>
+                    Color="{DynamicResource TextColor}"
+                    FontFamily="FontAwesomeRegular" />
             </Button.ImageSource>
         </Button>
     </StackLayout>

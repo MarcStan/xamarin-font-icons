@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
+    <None Remove="FontAwesome-regular.otf" />
+    <EmbeddedResource Include="FontAwesome-regular.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
   </ItemGroup>
 </Project>
